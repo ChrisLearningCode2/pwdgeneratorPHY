@@ -9,11 +9,11 @@ print('Welcome To Your Password Generator')
 
 chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*().,?0123456789'
 
-number = input('Amount of passwords to generate: ')
+number = input('Amount of passwords to generate:')
 number = int(number)
 
-length =('Input your password length')
-length =int(length)
+length = input('Input your password length')
+length = int(length)
 
 print('Here are your passwords:')
 
