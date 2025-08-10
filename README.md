@@ -72,3 +72,7 @@ number = int(input('Amount of passwords: '))
 length = int(input('Input your password length: '))
 
 </p>
+
+<p>
+I have also learned that for a small project, building string in loops is OK, but join would be faster and a cleaner way to do it
+For real passwords the secrets module (cryptographically secure) would be recommended instead of random.</p>
